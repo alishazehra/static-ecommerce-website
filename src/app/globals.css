@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 @media(min-width:768px){
-img{
-  height: 80vh;
-  max-width: 100vw;
-}}
+  .imgi{
+    height: 100%;
+    max-width: 100%;
+    margin-left: 20%;
+    
+    
+  }
+
+}
 h1{
   text-align: center;
   font-style: italic;
