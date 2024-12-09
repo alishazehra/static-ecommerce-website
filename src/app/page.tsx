@@ -35,9 +35,10 @@ function Home() {
       <img src="image copy 2.png" alt="logo" />
       <img src="image copy 3.png" alt="furniture" />
       <img src="image copy 4.png" alt="furnitures" />
-      
+      <img src="image copy 10.png" alt="product" />
       
       <SignupPage/>
+      <img src="image copy 14.png" alt="" />
       <img src="image copy 6.png" alt="wood" />
       <img src="image copy 7.png" alt="footer" height={"80%"} width={"100%"} />
     </div>
