@@ -21,26 +21,26 @@ function Home() {
 
       <h1 className='sm:text-xl md:text-2xl lg:2xl  '> Avion </h1> 
       <hr />
-      <ul className="flex flex-col sm:flex-row justify-center items-center gap-y-4 sm:gap-x-6 text-gray-500 text-xl sm:text-xl md:text-2xl lg:text-4xl">
+      <ul className="text-gray-500  sm:text-xl md:text-2xl lg:text-4xl flex justify-center items-center gap-4">
   <li className='px-4'> {/* Optional padding for better spacing */}
     <Link href="/plantpots">PlantPots</Link>
   </li>
-  <li className="px-4">
+  <li >
     <Link href="/plantpots">Ceramics</Link>
   </li>
-  <li className="px-4">
+  <li >
     <Link href="/plantpots">Tables</Link>
   </li>
-  <li className="px-4">
+  <li >
     <Link href="/plantpots">Chairs</Link>
   </li>
-  <li className="px-4">
+  <li >
     <Link href="/plantpots">Crockery</Link>
   </li>
-  <li className="px-4">
+  <li >
     <Link href="/plantpots">Tableware</Link>
   </li>
-  <li className="px-4">
+  <li >
     <Link href="/plantpots">Cutlery</Link>
   </li>
 </ul>
