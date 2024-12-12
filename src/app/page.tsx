@@ -2,15 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import SignupPage from './signup/page'
 
- import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
- SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet"
-
+ 
 function Home() {
   return  (
     <div >
