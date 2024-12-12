@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import SignupPage from './signup/page'
-import { FaShoppingCart,  FaSearch } from 'react-icons/fa'
+
  import {
   Sheet,
   SheetContent,
@@ -17,24 +17,42 @@ function Home() {
      
 
 <nav className='sm:text-xl md:text:2xl lg:text-4xl flex gap-2 hover:text-gray-400  ' >
+  <img className='w-10 h-10 flex gap-2' src="https://th.bing.com/th/id/OIP.iw4v1KAhLTdeBrhWTDBlyQHaHP?w=800&h=782&rs=1&pid=ImgDetMain" alt="" />
+<img className='w-10 h-10 ' src="https://th.bing.com/th/id/OIP.vyhkMafwzVBCCSsgGJfI4wHaHa?rs=1&pid=ImgDetMain" alt="search" />
+<img className='w-10 h-10 ml-auto' src="https://th.bing.com/th/id/OIP.Rcgld8bUghDAQpuH1JL4sgAAAA?rs=1&pid=ImgDetMain" alt="" />
 
-< FaShoppingCart/> <FaSearch/> 
+
+<img className='w-10 h-10' src="https://icon-library.com/images/white-menu-icon/white-menu-icon-15.jpg" alt="" />
+
  </nav>
- <Sheet>
-  <SheetTrigger className='nav'><img className='w-20 h-20 ' src="https://icon-library.com/images/sidebar-icon/sidebar-icon-22.jpg" alt="hi" /></SheetTrigger>
-  <SheetContent>
-    <SheetHeader>
-      <SheetTitle className='text-center'>Fashion</SheetTitle>
-      <SheetDescription>Shop your Favourite Products from <br />Women Fashion <br />Men Fashion <br />Kids</SheetDescription>
-    </SheetHeader>
-  </SheetContent>
-</Sheet>
+ 
 
       <h1 className='sm:text-xl md:text-2xl lg:2xl  '> Avion </h1> 
       <hr />
-      <ul className='  flex justify-center items-center gap-x-6 text-gray-500 sm:text-xl md:text-2xl lg:text-4xl'><li > <Link href="/plantpots"> PlantPots</Link>
-         </li ><li ><Link href="/plantpots">Ceramics</Link></li>
-      <li><Link  href="/plantpots">Tables</Link></li><li><Link href="/plantpots">Chairs</Link></li><li><Link href="/plantpots">Crockery</Link></li><li><Link href="/plantpots">Tableware</Link></li><li><Link href="/plantpots">Cutlery</Link></li></ul>
+      <ul className="flex flex-col sm:flex-row justify-center items-center gap-y-4 sm:gap-x-6 text-gray-500 text-xl sm:text-xl md:text-2xl lg:text-4xl">
+  <li className='px-4'> {/* Optional padding for better spacing */}
+    <Link href="/plantpots">PlantPots</Link>
+  </li>
+  <li className="px-4">
+    <Link href="/plantpots">Ceramics</Link>
+  </li>
+  <li className="px-4">
+    <Link href="/plantpots">Tables</Link>
+  </li>
+  <li className="px-4">
+    <Link href="/plantpots">Chairs</Link>
+  </li>
+  <li className="px-4">
+    <Link href="/plantpots">Crockery</Link>
+  </li>
+  <li className="px-4">
+    <Link href="/plantpots">Tableware</Link>
+  </li>
+  <li className="px-4">
+    <Link href="/plantpots">Cutlery</Link>
+  </li>
+</ul>
+
       <div >
       <img className='imgi'  src="image.png" alt="chair"  /></div>
       <img className='sm:text-xl md:text-2xl lg:4xl' src="image copy 2.png" alt="logo" />
